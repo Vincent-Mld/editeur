@@ -24,7 +24,10 @@ public class Document {
     public String toString() {
         return this.texte;
     }
-
+    /**
+     * Remplace de début jusqu'à fin par la chaine "remplacement"
+     * @param remplacement remplacement par cette chaine
+     */
     public void remplacer(int debut, int fin, String remplacement) {
         String partieGauche = texte.substring(0, debut);
         String partieDroite = texte.substring(fin + 1);

@@ -7,6 +7,10 @@ import fr.iut.editeur.commande.factory.CommandeFactory;
 
 import java.util.Scanner;
 
+/**
+ * Description de la méthode
+ * Il peut être intéressant de consulter la méthode {@link Document#remplacer} !
+ */
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
